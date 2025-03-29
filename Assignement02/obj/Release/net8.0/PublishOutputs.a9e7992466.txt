@@ -1,0 +1,11 @@
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Assignement02.exe
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\appsettings.json
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Assignement02.dll
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Assignement02.deps.json
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Assignement02.runtimeconfig.json
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Assignement02.pdb
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
