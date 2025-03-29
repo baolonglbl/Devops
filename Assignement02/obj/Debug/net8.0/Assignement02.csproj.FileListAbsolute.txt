@@ -34,3 +34,4 @@ E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Debug\net8.0\Assi
 E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Debug\net8.0\Assignement02.genruntimeconfig.cache
 E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Debug\net8.0\ref\Assignement02.dll
 E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\2024-2025\HK2\NhapMonDevOps\Assignement02\Assignement02\obj\Debug\net8.0\Assignement02.sourcelink.json

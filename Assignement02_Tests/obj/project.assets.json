@@ -5508,7 +5508,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\long\\.nuget\\packages\\": {},
+    "C:\\WINDOWS\\system32\\config\\systemprofile\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -5517,14 +5517,14 @@
       "projectUniqueName": "E:\\2024-2025\\HK2\\NhapMonDevOps\\Assignement02\\Assignement02_Tests\\Assignement02_Tests.csproj",
       "projectName": "Assignement02_Tests",
       "projectPath": "E:\\2024-2025\\HK2\\NhapMonDevOps\\Assignement02\\Assignement02_Tests\\Assignement02_Tests.csproj",
-      "packagesPath": "C:\\Users\\long\\.nuget\\packages\\",
+      "packagesPath": "C:\\WINDOWS\\system32\\config\\systemprofile\\.nuget\\packages\\",
       "outputPath": "E:\\2024-2025\\HK2\\NhapMonDevOps\\Assignement02\\Assignement02_Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\long\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
