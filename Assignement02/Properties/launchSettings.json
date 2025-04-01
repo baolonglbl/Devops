@@ -4,16 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:18456",
-      "sslPort": 0 // Tắt SSL trong Production
+      "applicationUrl": "http://localhost:56465",
+      "sslPort": 44354
     }
   },
   "profiles": {
     "http": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false, // Tắt trình duyệt vì Production không cần Swagger
-      "applicationUrl": "http://localhost:5200",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5218",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
@@ -21,16 +22,17 @@
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false, // Tắt trình duyệt
-      "applicationUrl": "http://localhost:5200", // Chỉ dùng HTTP, bỏ HTTPS
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7298;http://localhost:5218",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": false, // Tắt trình duyệt
-      "applicationUrl": "http://localhost:5200",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
