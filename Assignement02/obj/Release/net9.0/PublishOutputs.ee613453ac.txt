@@ -1,0 +1,11 @@
+D:\IIS\Assignement02.exe
+D:\IIS\appsettings.Development.json
+D:\IIS\appsettings.json
+D:\IIS\Assignement02.dll
+D:\IIS\Assignement02.deps.json
+D:\IIS\Assignement02.runtimeconfig.json
+D:\IIS\Assignement02.pdb
+D:\IIS\Microsoft.OpenApi.dll
+D:\IIS\Swashbuckle.AspNetCore.Swagger.dll
+D:\IIS\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\IIS\Swashbuckle.AspNetCore.SwaggerUI.dll
