@@ -1,10 +1,13 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
-// ? B?t HTTPS Redirection v?i c?ng HTTPS t? launchSettings.json
-builder.Services.AddHttpsRedirection(options =>
+// Chỉ bật HTTPS Redirection trong Development
+if (builder.Environment.IsDevelopment())
 {
-    options.HttpsPort = 7005; // ?? C?ng HTTPS ?� khai b�o trong launchSettings.json
-});
+    builder.Services.AddHttpsRedirection(options =>
+    {
+        options.HttpsPort = 7005;
+    });
+}
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -16,13 +19,10 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseHttpsRedirection(); // Chỉ chạy HTTPS trong Development
 }
 
-// ? Middleware chuy?n h??ng HTTP sang HTTPS
-app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
