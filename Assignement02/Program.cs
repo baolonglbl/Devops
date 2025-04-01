@@ -1,35 +1,24 @@
-﻿using Swashbuckle.AspNetCore.Swagger;     // Cho UseSwagger
-using Swashbuckle.AspNetCore.SwaggerUI;   // Cho UseSwaggerUI
+﻿var builder = WebApplication.CreateBuilder(args);
 
-var builder = WebApplication.CreateBuilder(args);
+// Add services to the container.
 
-// Chỉ bật HTTPS Redirection trong Development
-if (builder.Environment.IsDevelopment())
-{
-    builder.Services.AddHttpsRedirection(options =>
-    {
-        options.HttpsPort = 7005;
-    });
-}
-
-// Thêm các dịch vụ cần thiết
 builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Bật Swagger và Swagger UI trong cả Development và Production
+// Configure the HTTP request pipeline.
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// Chỉ bật HTTPS Redirection trong Development
-if (app.Environment.IsDevelopment())
-{
-    app.UseHttpsRedirection();
-}
+
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();
