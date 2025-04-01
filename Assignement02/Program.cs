@@ -1,4 +1,7 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Swashbuckle.AspNetCore.Swagger;     // Cho UseSwagger
+using Swashbuckle.AspNetCore.SwaggerUI;   // Cho UseSwaggerUI
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Chỉ bật HTTPS Redirection trong Development
 if (builder.Environment.IsDevelopment())
@@ -16,11 +19,13 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Chỉ bật Swagger và HTTPS Redirection trong Development
+// Bật Swagger và Swagger UI trong cả Development và Production
+app.UseSwagger();
+app.UseSwaggerUI();
+
+// Chỉ bật HTTPS Redirection trong Development
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
     app.UseHttpsRedirection();
 }
 
